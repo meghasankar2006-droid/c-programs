@@ -1,9 +1,11 @@
 #include <stdio.h>
 
 int main() {
-    
-    printf("%f\n",10.34);
-    printf("%f\n",2.0000);
-    printf("%.2f %.2f",2.3,7.08);
+    int a=10.34;
+    int b=4.00;
+    printf("%f\n",a);
+    printf("%f\n",b);
+    printf("%.2f %.2f",a,b);
+
 
     return 0;
