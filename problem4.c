@@ -1,11 +1,8 @@
 #include <stdio.h>
 
 int main() {
-    int a=10.34;
-    int b=4.00;
-    printf("%f\n",a);
-    printf("%f\n",b);
-    printf("%.2f %.2f",a,b);
-
+    printf("%f\n",10.34);
+    printf("%.2f\n",2.0000);
 
     return 0;
+
