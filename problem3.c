@@ -1,12 +1,9 @@
 #include <stdio.h>
 
 int main() {
-    int a=10;
-    int b=27;
-    printf("%d\n",a);
-    printf("%d\n",b);
-    printf("%d %d",a,b);
-
+    printf("%d\n",10);
+    printf("%d\n",65);
     return 0;
 
 }
+
