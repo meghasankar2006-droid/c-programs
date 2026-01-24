@@ -1,8 +1,7 @@
 #include <stdio.h>
 int main() {
-    char letter='a';
-    char l2='b';
-    printf("%c\n",letter);
-    printf("%c",l2);
+    printf("%c\n",'a');
+    printf("%c",'b');
     return 0;
+
 }
