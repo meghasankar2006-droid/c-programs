@@ -1,10 +1,12 @@
 #include <stdio.h>
 
 int main() {
-    
-    printf("%d\n",10);
-    printf("%d\n",27);
-    printf("%d %d",23,78);
+    int a=10;
+    int b=27;
+    printf("%d\n",a);
+    printf("%d\n",b);
+    printf("%d %d",a,b);
 
     return 0;
+
 }
