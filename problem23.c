@@ -1,6 +1,8 @@
 #include <stdio.h>
 int main() {
-    float b=10;
+    int a=10;
+    float b=a;
     printf("%.2f",b);
     return 0;
+
 }
