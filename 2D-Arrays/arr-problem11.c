@@ -12,7 +12,7 @@ int main(){
     for(int i=0;i<r;i++){
         int val=0;
         for(int j=0;j<c-1;j++){
-            if(arr[i][j]<arr[i][j+1]){
+            if(arr[i][j]<=arr[i][j+1]){
                 val++;
                 
             }
