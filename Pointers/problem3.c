@@ -7,9 +7,6 @@ int isvowel(char *c){
         }
     }
     printf("%d",count);
-
-
-
 }
 int main(){
     char str[100];
@@ -18,6 +15,7 @@ int main(){
 
 
 }
+
 
 
 
