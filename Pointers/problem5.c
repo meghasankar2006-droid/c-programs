@@ -6,7 +6,6 @@ int sum_val(int arr[],int n){
         sum=sum+*(p+i);
     }
     printf("%d",sum);
-
 }
 int main(){
     int n;
@@ -16,5 +15,6 @@ int main(){
         scanf("%d",&arr[i]);
     }
     sum_val(arr,n);
+
 
 }
