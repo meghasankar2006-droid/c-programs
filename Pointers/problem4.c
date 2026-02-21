@@ -4,8 +4,7 @@ char copy(char *p ,char *c){
     for( i=0;*(p+i)!=0;i++){
         *(c+i)=*(p+i);
     }
-    *(c+i)='\0';
-    
+    *(c+i)='\0';   
 }
 int main(){
     char str[100];
@@ -13,4 +12,5 @@ int main(){
     char str1[100];
     copy(str,str1);
     printf("%s",str1);
+
 }
