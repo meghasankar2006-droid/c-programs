@@ -7,7 +7,7 @@ int count_str(char *c,int *num){
             count++;
         }
     }
-    printf("%d",count);
+    printf("%d",count
 }
 int main(){
     char str[200];
