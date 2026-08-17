@@ -3,6 +3,7 @@ int main(){
     int n,mid;
     scanf("%d",&n);
     int left=0 ,right=0,val;
+
     
     if(n%2!=0){
         mid=n/2;
